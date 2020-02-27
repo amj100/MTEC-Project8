@@ -1,5 +1,5 @@
 const PGClient = require("pg").Client
-const url = "postgres://localhost:5432/devdb"
+const url = process.env.DATABASE_URL || "postgres://localhost:5432/devdb"
 
 const defaultUsers = require("./default_users.json")
 
