@@ -13,4 +13,4 @@
 - Go on a browser to the URL "localhost:3000" to get to the app.
 - control + c to stop the server.
 
-# Hosted on Heroku: (glacial-atoll-93654)[https://glacial-atoll-93654.herokuapp.com/]
+# Hosted on Heroku: [glacial-atoll-93654](https://glacial-atoll-93654.herokuapp.com/)
