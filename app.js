@@ -90,7 +90,7 @@ app.post("/edit_user/:id", async (req, res) => {
 	let age = req.body.age
 	let obj = {}
 	try {
-		if (id && name && email && age && !list[id] && id !== "") {
+		if (id && name && email && age && id !== "") {
 			obj = {
 				id: id,
 				name: name,
